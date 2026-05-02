@@ -7,7 +7,7 @@ Basic Todo application with Express and MongoDB
 
 IMP Instructions:
 
-    # For an Todo Item to be checked and store in DB . use/click on the  "List description"
+    # For an todo Item to be checked and store in DB . use/click on the  "List description"
     # It is the Most critical part for "DeleteAll" button to work , in the way it is meant to be 
     # It will useful to identify the checked Items while restarting the Project
 

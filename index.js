@@ -4,7 +4,7 @@ const app=express();
 
 const db=require('./config/mongoose');
 
-// Creating and importing the DB Schema
+// creating and importing the DB Schema
 const Todo=require('./models/Todo');
 
 app.use(express.static('./assets'));
