@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 
 
-// storing the Controller into a variable for using the Function
+// storing the Controller into a variable-Shaik_khadar for using the Function
 const home_Controller=require('../controllers/home_Controller');
 const add_Controller= require('../controllers/add_Controller');
 const delete_Controller=require('../controllers/delete_Controller');
