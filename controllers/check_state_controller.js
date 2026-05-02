@@ -6,7 +6,7 @@ const Todo = require("../models/Todo");
 module.exports.check=function(req,res){
     let id=req.query.id;
     
-    // Getting the ID from query params
+    // Getting the id from query params
     Todo.find({_id:id}).then((value)=>{
         // Checking the Todo Item State (Checked / Unchecked) and changing the state
         if(value[0].checked=='checked'){

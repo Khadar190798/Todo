@@ -1,7 +1,7 @@
 
 // Getting the Mongoose library
 const Mongo=require('mongoose');
-// Creating the Schema for the DB
+// Creating the Schema for the db
 const todoSchema = new Mongo.Schema({
     description:{
         type:String,

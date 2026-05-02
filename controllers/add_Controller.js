@@ -2,7 +2,7 @@
 const Todo = require("../models/Todo");
 
 
-// Appending the Form Data into the Data Base 
+// Append the Form Data into the Data Base 
 
 module.exports.add=function(req,res){
    // Adding the Data into the DB

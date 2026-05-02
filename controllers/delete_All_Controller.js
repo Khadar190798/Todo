@@ -16,6 +16,6 @@ module.exports.deleteAll=function(req,res){
         }
     })
 
-    // Once Loop over Items finish, it will be redirected to the Home page 
+    // Once loop over Items finish, it will be redirected to the Home page 
     res.redirect('Todo');
 }

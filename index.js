@@ -7,7 +7,6 @@ const db=require('./config/mongoose');
 // Creating and importing the DB Schema
 const Todo=require('./models/Todo');
 
-// Setting up the Static folder
 app.use(express.static('./assets'));
 
 // Handiling Routes
